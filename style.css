@@ -1,0 +1,70 @@
+/* Universal Selector (resets default margin/padding) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector (styles all <body> content) */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ID Selector (styles #kyoto specifically) */
+#Galápagos {
+    background-color: #fff8f8;
+    border: 2px dashed #ff6b6b;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#Chiang {
+    background-color: #fff8f8;
+    border: 2px dashed #ff6b6b;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Class Selector (styles all .destination sections) */
+.destination {
+    background-color: #f0f9ff;
+    border: 2px solid #66b3ff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Image Styling (all <img> tags) */
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+    border: 3px solid #eee;
+}
+
+/* Header & Footer Styling */
+header, footer {
+    font-family: 'Playfair Display', serif;
+    color: #66b3ff;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+header {
+    background-color: turquoise;
+    color: white;
+}
+
+footer {
+    background-color: turquoise;
+    color: white;
+    font-family: 'Courier New', monospace; /* Different font for footer */
+}
